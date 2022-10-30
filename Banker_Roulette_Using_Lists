@@ -19,4 +19,8 @@ test_index = random.randint(0, len(names)-1)
 
 print (f"{names[test_index]} is going to buy the meal today!" )
 
+#The below will also work in the easiest way
+# test_index = random.choice(names)
+# print (f"{test_index} is going to buy the meal today!") 
+
 
