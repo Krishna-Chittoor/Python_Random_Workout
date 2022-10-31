@@ -1,0 +1,11 @@
+When there is a index value called out of the range then Python throws "List Index Out of range" error. 
+Example:
+
+a = [1,2,3,4] which has the index values 0,1,2 and 3 respectively. In this case, when we print list[4], it gives the above error 
+
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "kale", "Tomatoes", "Celery", "Potatoes"] 
+
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen) 
